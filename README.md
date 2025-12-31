@@ -11,7 +11,7 @@
 
 Esta herramienta web permite a estudiantes e ingenieros visualizar cómo se comportan las señales digitales bajo diferentes esquemas de codificación. Transforma cadenas binarias en diagramas de tiempo (formas de onda) precisos directamente en el navegador, facilitando el estudio de la capa física del modelo OSI sin necesidad de osciloscopios o hardware dedicado.
 
-🔗 **[Ver Demo en Vivo](https://rigobertozamora.github.io/Digitales/)**
+🔗 **[Ver Demo en Vivo](https://github.com/RigobertoZamora/CodigosDeLinea)**
 
 ---
 
