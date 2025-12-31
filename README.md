@@ -1,4 +1,4 @@
-<img width="1919" height="974" alt="Captura de pantalla 2025-12-30 182213" src="https://github.com/user-attachments/assets/7770a123-92df-4edb-b477-56e7b6073421" /># Digital Line Coding Simulator
+# Digital Line Coding Simulator
 
 > **Simulador interactivo de Codificación de Línea para telecomunicaciones.**
 > Visualiza formas de onda digitales y protocolos de transmisión en tiempo real.
@@ -36,20 +36,24 @@ Este proyecto fue construido utilizando tecnologías web estándar, asegurando c
 
 ## 📸 Capturas de Pantalla
 <img width="1913" height="969" alt="Captura de pantalla 2025-12-30 181922" src="https://github.com/user-attachments/assets/77112acf-47e6-49ad-9c78-73c5896c6f1b" />
+
 > *RZ.html*
 <img width="1919" height="971" alt="Captura de pantalla 2025-12-30 182122" src="https://github.com/user-attachments/assets/6fd3aa4c-4095-4318-abb0-b47b86525ef3" />
-> *unipolar.html*
+
+> *Unipolar.html*
 <img width="1919" height="970" alt="Captura de pantalla 2025-12-30 182155" src="https://github.com/user-attachments/assets/0d76db2a-20aa-43e3-b214-92c1eab28560" />
-> *ami.html*
+
+> *AMI.html*
 <img width="1919" height="974" alt="Captura de pantalla 2025-12-30 182213" src="https://github.com/user-attachments/assets/f2215f86-fdf2-4df6-9900-499297440502" />
-> *nrzsi.html*
+
+> *NRZ-I.html*
 <img width="1919" height="968" alt="Captura de pantalla 2025-12-30 182251" src="https://github.com/user-attachments/assets/ff4338a5-1663-4d80-9d5d-ac068a6f25d3" />
-> *manchesterD.html*
+
+> *ManchesterDif.html*
 <img width="1919" height="971" alt="Captura de pantalla 2025-12-30 182236" src="https://github.com/user-attachments/assets/35526ffe-d277-4df7-8a9e-88707b442e62" />
 <img width="1917" height="981" alt="Captura de pantalla 2025-12-30 182304" src="https://github.com/user-attachments/assets/d63243cc-122d-4d4e-8b02-b080d674ad88" />
-> *index.html*
 
-![Vista General del Simulador](./img/demo-screenshot.png)
+> *index.html*
 
 ## 📦 Instalación y Uso Local
 
@@ -67,4 +71,4 @@ No se requiere backend ni servidores. Para ejecutarlo localmente:
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
-*Desarrollado con ❤️ por Rigoberto Zamora para la comunidad de ingeniería.*
+*Desarrollado con ❤️ para la comunidad de ingeniería por Rigoberto Zamora y su equipo: Rodolfo Vega, Moisés Urbina y Elías Melendez.*
