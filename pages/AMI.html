@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODIFICACIONES</title>
-    <link href="styleMD.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/itcolima.svg">
+    <link href="../css/styleMD.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/img/itcolima.svg">
 </head>
 <body id="body">
     <div id="textoInicial">
         <div>
-          <img src="img/tecnm.png" alt="Imagen" class="logomexico">
+          <img src="../assets/img/tecnm.png" alt="Imagen" class="logomexico">
         </div>
         <div>
-          <h2>Tecnológico Nacional de México Campus Colima Ingeniería Informática Tarea 3UA1.</h2> 
+          <h2>Tecnológico Nacional de México Campus Colima Ingeniería Informática.</h2> 
           <span class="gradient-overlay"></span>
         </div>
         <div>
-          <img src="img/itcolima.svg" alt="Imagen" class="logocolima">  
+          <img src="../assets/img/itcolima.svg" alt="Imagen" class="logocolima">  
         </div>
       </div>
       <div id="titulo">
-        <h2>CODIFICACIÓN MANCHESTER</h2> 
+        <h2>CODIFICACIÓN AMI</h2> 
       </div>
       <div class="container">    
 <div id="lineainbt">
@@ -30,11 +30,11 @@
           <label class="label">Ingresa una cadena de bits:</label>
         </div>
         <p id="mensajeError" style="color: rgb(209, 91, 91); position: fixed; transform: translate(10px, 60px);"></p>
-          <button class="cyber-buttoncito" onclick="IngresarBits('man')">
+          <button class="cyber-buttoncito" onclick="IngresarBits('ami')">
               <span data-text="AMI" class="glitch">Generar Grafica</span>
               <span class="cyberpunk-border"></span>  
           </button>
-          <button class="cyber-buttoncito" onclick="generarRandom('man')">
+          <button class="cyber-buttoncito" onclick="generarRandom('ami')">
             <span data-text="AMI" class="glitch">Generar Grafica Aleatoria</span>
             <span class="cyberpunk-border"></span>
         </button>
@@ -48,8 +48,8 @@
           <canvas id="grafica"></canvas>
         </div>
         <div class="progress-bar">
-            <div class="progress" id="progress"></div>
-        </div>
+          <div class="progress" id="progress"></div>
+      </div>
         <br>
         <br>
         <hr>
@@ -57,24 +57,24 @@
         <div id="cuadradito"> 
           <h2 id="descri">
            
-            Usa la inversión en mitad de
-            cada intervalo de bit para sincronizar y para
-            representar bits. Una transición de negativo a positivo
-            representa un 1 binario y una transición positivo a
-            negativo representa un 0 binario. Usando una
-            transición con ese doble objetivo, la codificación
-            Manchester logra el mismo nivel de sincronización que
-            RZ pero con dos valores de amplitud.
+            La codificación AMI, o Alternate Mark Inversion, 
+            es un método de codificación bipolar utilizado en
+            la transmisión de datos digitales. Este código se
+            caracteriza por asignar impulsos de polaridad alternante
+            a los bits lógicos "1", mientras que los bits "0" se
+            representan por ausencia de señal. Es ampliamente utilizada
+            en sistemas de comunicación digital debido a sus ventajas en
+            términos de sincronización y reducción de interferencias.
             
 
           </h2>
 
         </div>
       </div>
-      <button onclick="location.href='index.html'"class="button">🏠 Regresar</button>
+      <button onclick="location.href='../index.html'"class="button">🏠 Regresar</button>
 <nav class="navbar">
-  <h1 id="textonav">Desarrolladores: Rodolfo Vega, Rigoberto Zamora, Moisés Urbina, Elias Melendez</h1>
+  <h1 id="textonav">Devs: Rigoberto Zamora, Rodolfo Vega, Moises Urbina, Elias Melendez</h1>
 </nav> 
-      <script src="function.js"></script>
+      <script src="../js/function.js"></script>
 </body>
 </html>

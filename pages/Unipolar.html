@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODIFICACIONES</title>
-    <link href="styleMD.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/itcolima.svg">
+    <link href="../css/styleMD.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/img/itcolima.svg">
 </head>
 <body id="body">
     <div id="textoInicial">
         <div>
-          <img src="img/tecnm.png" alt="Imagen" class="logomexico">
+          <img src="../assets/img/tecnm.png" alt="Imagen" class="logomexico">
         </div>
         <div>
-          <h2>Tecnológico Nacional de México Campus Colima Ingeniería Informática Tarea 3UA1.</h2> 
+          <h2>Tecnológico Nacional de México Campus Colima Ingeniería Informática.</h2> 
           <span class="gradient-overlay"></span>
         </div>
         <div>
-          <img src="img/itcolima.svg" alt="Imagen" class="logocolima">  
+          <img src="../assets/img/itcolima.svg" alt="Imagen" class="logocolima">  
         </div>
       </div>
       <div id="titulo">
-        <h2>CODIFICACIÓN NRZ-I</h2> 
+        <h2>CODIFICACIÓN UNIPOLAR</h2> 
       </div>
       <div class="container">    
 <div id="lineainbt">
@@ -30,11 +30,11 @@
           <label class="label">Ingresa una cadena de bits:</label>
         </div>
         <p id="mensajeError" style="color: rgb(209, 91, 91); position: fixed; transform: translate(10px, 60px);"></p>
-          <button class="cyber-buttoncito" onclick="IngresarBits('nrz-i')">
+          <button class="cyber-buttoncito" onclick="IngresarBits('uni')">
               <span data-text="AMI" class="glitch">Generar Grafica</span>
               <span class="cyberpunk-border"></span>  
           </button>
-          <button class="cyber-buttoncito" onclick="generarRandom('nrz-i')">
+          <button class="cyber-buttoncito" onclick="generarRandom('uni')">
             <span data-text="AMI" class="glitch">Generar Grafica Aleatoria</span>
             <span class="cyberpunk-border"></span>
         </button>
@@ -57,21 +57,29 @@
         <div id="cuadradito"> 
           <h2 id="descri">
            
-            Es una inversión del nivel de voltaje
-            representa un bit 1. Es la transición entre el
-            valor de voltaje positivo y negativo, no los
-            voltajes en sí mismos, lo que representa un bit
-            1.Un bit 0 se representa sin ningún cambio.
+            La codificación unipolar es muy sencilla y muy primitiva.
+            Aunque actualmente es casi obsoleta, permite
+            representar los conceptos usados con los sistemas de
+            codificación más complejos y permite examinar los tipos
+            de problemas que se deben resolver en los sistemas de
+            transmisión digital.
+
+            El sistema de transmisión digital va como pulsos de
+            voltaje por un medio de enlace, cable o un hilo.
+
+            En este tipo de codificación consta de dos partes:
+            COMPONENTE DC y la SINCRONIZACION.
             
 
           </h2>
 
         </div>
+
       </div>
-      <button onclick="location.href='index.html'"class="button">🏠 Regresar</button>
+      <button onclick="location.href='../index.html'"class="button">🏠 Regresar</button>
 <nav class="navbar">
-  <h1 id="textonav">Desarrolladores: Rodolfo Vega, Rigoberto Zamora, Moisés Urbina, Elias Melendez</h1>
+  <h1 id="textonav">Devs: Rigoberto Zamora, Rodolfo Vega, Moises Urbina, Elias Melendez</h1>
 </nav> 
-      <script src="function.js"></script>
+      <script src="../js/function.js"></script>
 </body>
 </html>

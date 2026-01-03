@@ -1,3 +1,4 @@
+//Made by Rigoberto Zamora
 // ESTANDAR de dimensiones y escalado de las gráficas
 const originalWidth = 50; // Ancho original de cada bit
 const maxBitsToFit = 20; // Máximo de bits antes de reducir tamaño
@@ -1377,15 +1378,3 @@ function drawAxis(canvasWidth) {
   ctx.lineWidth = 1.5;
   ctx.stroke();
 }
-
-//MUSIC
-document.addEventListener("DOMContentLoaded", () => {
-  const audio = document.getElementById("musica");
-
-  // Intenta reproducir el audio
-  audio.play().then(() => {
-      console.log("Música reproduciéndose automáticamente.");
-  }).catch(error => {
-      console.log("La reproducción automática fue bloqueada. Se necesita interacción del usuario.");
-  });
-});
